@@ -6,7 +6,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configure the API key
-genai.configure(api_key="AIzaSyAhKRHjuc5_L9i3TowkZxlemd_UUogSEhg") 
+genai.configure(api_key="API_KEY") 
 new_chat_id = f'{time.time()}'
 
 # Create data directory if it doesn't exist
